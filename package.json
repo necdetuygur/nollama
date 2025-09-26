@@ -1,0 +1,32 @@
+{
+  "name": "nollama",
+  "version": "1.0.7",
+  "description": "nollama",
+  "main": "index.js",
+  "bin": {
+    "nollama": "bin/nollama"
+  },
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necdetuygur/nollama.git"
+  },
+  "keywords": [
+    "nollama",
+    "ollama cli"
+  ],
+  "author": "Necdet UYGUR <necdet.uygur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/necdetuygur/nollama/issues"
+  },
+  "homepage": "https://github.com/necdetuygur/nollama#readme",
+  "type": "module",
+  "dependencies": {
+    "@inquirer/prompts": "^7.8.6",
+    "ollama": "^0.6.0"
+  }
+}
